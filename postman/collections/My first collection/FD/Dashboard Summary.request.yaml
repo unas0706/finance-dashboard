@@ -1,0 +1,10 @@
+$kind: http-request
+url: https://finance-dashboard-fujt.onrender.com/api/dashboard/summary
+method: GET
+headers:
+  User-Agent: insomnia/12.4.0
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 4000

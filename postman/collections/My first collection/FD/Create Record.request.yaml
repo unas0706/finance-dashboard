@@ -1,0 +1,21 @@
+$kind: http-request
+url: https://finance-dashboard-fujt.onrender.com/api/records
+method: POST
+headers:
+  Content-Type: application/json
+  User-Agent: insomnia/12.4.0
+body:
+  type: json
+  content: |-
+    {
+      "amount": 2000.00,
+      "type": "income",
+      "category": "salary",
+      "date": "2024-06-15",
+      "notes": "June salary payment"
+    }
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 7000

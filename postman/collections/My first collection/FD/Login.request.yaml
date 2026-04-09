@@ -1,0 +1,18 @@
+$kind: http-request
+url: https://finance-dashboard-fujt.onrender.com/api/auth/login
+method: POST
+headers:
+  Content-Type: application/json
+  User-Agent: insomnia/12.4.0
+body:
+  type: json
+  content: |-
+    {
+    	"email": "admin@finance.com",
+    	"password": "admin123"
+    }
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 2000

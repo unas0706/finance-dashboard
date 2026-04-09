@@ -1,0 +1,8 @@
+$kind: collection
+auth:
+  - id: d0140726-3aea-4e80-bac6-736b05ca5377
+    type: bearer
+    name: bearer auth
+    credentials:
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5Y2UzMWM3OGExYzM3NWE1YjZiMjc2NyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc3NTIzNjk2NiwiZXhwIjoxNzc1ODQxNzY2fQ.8hIhbfQC2dVPwRU7pZ79RQVXlLq3-GwNdwSmfAeppWg
+order: 1000

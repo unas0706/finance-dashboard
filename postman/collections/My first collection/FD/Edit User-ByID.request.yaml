@@ -1,0 +1,19 @@
+$kind: http-request
+url: https://finance-dashboard-fujt.onrender.com/api/users/69cfcbbe686e7e0ef6865a27
+method: PATCH
+headers:
+  Content-Type: application/json
+  User-Agent: insomnia/12.4.0
+body:
+  type: json
+  content: |-
+    {
+      "name": "Updated Name",
+      "role": "analyst",
+      "isActive": false
+    }
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 5000
